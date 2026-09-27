@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_stack" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-primary-fixed-variant": "#3323cc", "on-primary-container": "#dad7ff", "on-error": "#ffffff", "surface-container-lowest": "#ffffff", "surface-container-highest": "#dae2fd", "surface-container-high": "#e2e7ff", "on-primary-fixed": "#0f0069", "secondary-fixed": "#d3e3ff", "on-primary": "#ffffff", "surface-tint": "#4d44e3", "surface-container": "#eaedff", "outline-variant": "#c7c4d8", "tertiary-fixed": "#6ffbbe", "on-surface": "#131b2e", "on-secondary-fixed": "#001c39", "on-error-container": "#93000a", "primary-container": "#4f46e5", "tertiary": "#005338", "on-surface-variant": "#464555", "secondary": "#0060ab", "on-background": "#131b2e", "outline": "#777587", "surface-bright": "#faf8ff", "on-secondary-container": "#003664", "background": "#faf8ff", "inverse-on-surface": "#eef0ff", "error-container": "#ffdad6", "on-secondary": "#ffffff", "surface": "#faf8ff", "error": "#ba1a1a", "surface-variant": "#dae2fd", "surface-dim": "#d2d9f4", "inverse-surface": "#283044", "primary-fixed-dim": "#c3c0ff", "tertiary-container": "#006e4b", "secondary-fixed-dim": "#a3c9ff", "on-tertiary-container": "#67f4b7", "on-tertiary-fixed": "#002113", "secondary-container": "#4ca0ff", "on-secondary-fixed-variant": "#004883", "inverse-primary": "#c3c0ff", "on-tertiary": "#ffffff", "tertiary-fixed-dim": "#4edea3", "surface-container-low": "#f2f3ff", "primary-fixed": "#e2dfff", "primary": "#3525cd", "on-tertiary-fixed-variant": "#005236" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "gutter-sm": "0.75rem", "space-xl": "1.5rem", "space-md": "0.75rem", "space-xs": "0.25rem", "margin": "1rem", "space-sm": "0.5rem", "margin-lg": "1.25rem", "space-lg": "1rem", "gutter": "1rem" }, "fontFamily": { "label-lg": ["Inter"], "headline-lg": ["Inter"], "body-md": ["Inter"], "label-sm": ["Inter"], "display-lg": ["Inter"], "body-sm": ["Inter"], "headline-sm": ["Inter"], "caption": ["Inter"], "label-md": ["Inter"], "display-sm": ["Inter"], "body-lg": ["Inter"] }, "fontSize": { "label-lg": ["14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" }], "headline-lg": ["20px", { "lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "body-md": ["14px", { "lineHeight": "20px", "letterSpacing": "0em", "fontWeight": "400" }], "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.025em", "fontWeight": "500" }], "display-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "body-sm": ["13px", { "lineHeight": "18px", "letterSpacing": "0.005em", "fontWeight": "400" }], "headline-sm": ["18px", { "lineHeight": "24px", "letterSpacing": "-0.005em", "fontWeight": "600" }], "caption": ["10px", { "lineHeight": "12px", "letterSpacing": "0.04em", "fontWeight": "500" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" }], "display-sm": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.015em", "fontWeight": "600" }], "body-lg": ["16px", { "lineHeight": "24px", "letterSpacing": "0em", "fontWeight": "400" }] } } } };</script><style>@layer base{html,body{width:100%;margin:0;padding:0;min-height:100%;}body{overscroll-behavior-y:none;-webkit-tap-highlight-color:transparent;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}}::-webkit-scrollbar{display:none;}</style><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+</head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 inset-x-0 z-50 bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)] pt-safe"><div class="h-16 px-margin flex items-center justify-between"><div class="flex items-center gap-space-sm"><button aria-label="Navigate Back" class="w-11 h-11 -ml-space-sm flex items-center justify-center rounded-full text-on-surface hover:bg-surface-container-high transition-colors" onclick="history.back()" type="button"><span class="material-symbols-outlined text-[24px]">arrow_back_ios_new</span></button><img alt="Microsoft Copilot Logo" class="h-7 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1Ueyu0mMY6zw617TfRleo6oQ9bUo1r1PXhvZ_28AFVXe0htbha2gOL74ga1ByTAsM5DNOONgU-4aD_oufgY6yYGiVhPj46pTFnnAsquEjMWxVjf7LJoP4R3tPedzFbMX8ELGIatDEaa_OAgP33I-L7hsSN8BPS9pBUyboj0NpyqYHLWX_K_gL6pMupGTeTdoEMEfQBqUdkhV1CbY8zcQk7uBlfH_d0mgjZMEct3HpXh7tOQUgnvpyEyiBpN"/><h1 class="font-headline-sm text-headline-sm text-on-surface font-bold truncate max-w-[190px]">Task Execution Detail</h1></div><div class="flex items-center gap-space-xs"><button aria-label="Profile" class="w-11 h-11 flex items-center justify-center rounded-full" type="button"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDa4BCK45mrvDZPny_Fg27gpPSgQiOl67Yd2J99A5W5WnSVenrE5gSpQEjlml4vAQ3T8IKrgZfAWWH6oS_AHCVwcZAYPm2Ugppqwicu5PIE4kHCaISRDLL3RLdEUaeGN00Ie3tDRtCIMsfVbf1go2vFXUWnQWaynMmNcD6TTRDxcPgyq9amDl6MPYZpE9JP_jzkG7znI_caqhRT8Af4RAwlK-k0ThxEPZF-tHFHhJQcedZ8X6_IcDhAQg"/></button></div></div></header><main class="flex flex-col relative w-full pt-16 pb-safe bg-surface min-h-screen"><div class="flex flex-col w-full pb-32">
+<!-- Checkpoint Status Banner -->
+<section class="px-margin pt-space-md pb-space-sm">
+<div class="bg-surface-container rounded-2xl p-space-lg shadow-sm">
+<div class="flex items-center justify-between gap-space-sm mb-space-xs">
+<div class="flex items-center gap-space-xs">
+<span class="relative flex h-2.5 w-2.5">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-secondary opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-primary"></span>
+</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Human-in-the-Loop Node</span>
+</div>
+<div class="inline-flex items-center gap-1 bg-surface-container-highest px-2.5 py-0.5 rounded-full">
+<span class="material-symbols-outlined text-[14px] text-tertiary-container">verified_user</span>
+<span class="font-label-sm text-label-sm text-tertiary-container font-semibold">Ready for Sign-off</span>
+</div>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface font-bold tracking-tight mt-space-xs">
+        Review Contoso Meeting Package
+      </h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+        Autonomous plan paused • Requires Aanya Sharma's outbound authorization
+      </p>
+<!-- Progress Meter -->
+<div class="mt-space-md pt-space-xs">
+<div class="flex justify-between items-center mb-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Pipeline Completion</span>
+<span class="font-label-sm text-label-sm text-primary font-bold">90%</span>
+</div>
+<div class="w-full bg-surface-container-high h-1.5 rounded-full overflow-hidden">
+<div class="bg-primary h-full rounded-full w-[90%] transition-all duration-500"></div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 1: Consequential Outbound Email Action -->
+<section class="px-margin mt-space-sm">
+<div class="bg-surface-container-lowest rounded-2xl shadow-sm overflow-hidden">
+<!-- Card Header -->
+<div class="p-space-lg bg-surface-container-low">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<div class="w-8 h-8 rounded-lg bg-secondary-container/20 flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">mail</span>
+</div>
+<div>
+<div class="flex items-center gap-1.5">
+<span class="font-label-md text-label-md text-on-surface font-bold">Outlook Staged Email</span>
+<span class="bg-secondary-fixed text-on-secondary-fixed px-1.5 py-0.5 rounded font-caption text-caption uppercase tracking-wide">Outbound</span>
+</div>
+<p class="font-caption text-caption text-on-surface-variant">Scheduled trigger post-briefing approval</p>
+</div>
+</div>
+<span class="material-symbols-outlined text-outline-variant text-[20px]">mark_email_unread</span>
+</div>
+</div>
+<!-- Card Body / Meta -->
+<div class="p-space-lg space-y-space-sm">
+<div class="bg-surface-container-low rounded-xl p-space-sm space-y-1">
+<div class="flex items-baseline gap-space-xs text-on-surface-variant">
+<span class="font-label-sm text-label-sm w-8 shrink-0 text-outline">To:</span>
+<span class="font-body-sm text-body-sm text-on-surface font-medium truncate">Sarah Jenkins (VP Growth, Contoso APAC)</span>
+</div>
+<div class="flex items-baseline gap-space-xs text-on-surface-variant">
+<span class="font-label-sm text-label-sm w-8 shrink-0 text-outline">CC:</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">APAC Growth Core, Contoso Account Lead</span>
+</div>
+<div class="flex items-baseline gap-space-xs pt-1">
+<span class="font-label-sm text-label-sm w-8 shrink-0 text-outline">Subj:</span>
+<span class="font-body-sm text-body-sm text-on-surface font-semibold truncate">Briefing &amp; Next Steps: APAC Digital Growth Alignment</span>
+</div>
+</div>
+<!-- Email Body Preview -->
+<div class="bg-surface-container-lowest p-space-sm rounded-xl">
+<p class="font-body-md text-body-md text-on-surface leading-relaxed">
+            Hi Sarah,<br/><br/>
+            Looking forward to our strategic review tomorrow at 10:00 AM SGT. In preparation, I've summarized our campaign ROI metrics (<span class="font-semibold text-primary">+18% conversion lift</span> across the Bangalore &amp; Singapore pilot segments) and consolidated the 3 critical discussion nodes regarding Q4 budget allocation.<br/><br/>
+            Attached is the full briefing sheet for your leadership circle. Let's align early on the regional attribution shifts.
+          </p>
+<div class="mt-space-md pt-space-xs flex items-center justify-between">
+<div class="inline-flex items-center gap-1.5 text-on-surface-variant">
+<span class="material-symbols-outlined text-[16px] text-primary">attachment</span>
+<span class="font-label-sm text-label-sm">Contoso_Exec_Brief_Tomorrow.docx (1.4MB)</span>
+</div>
+</div>
+</div>
+<!-- Inline Draft Micro-Actions -->
+<div class="pt-space-xs flex items-center gap-space-sm">
+<button class="flex-1 bg-surface-container-high hover:bg-surface-variant active:scale-[0.98] transition text-on-surface font-label-md text-label-md py-2.5 px-3 rounded-xl flex items-center justify-center gap-1.5" type="button">
+<span class="material-symbols-outlined text-[18px]">edit_note</span>
+            Edit with Copilot
+          </button>
+<button class="bg-error-container/40 text-error hover:bg-error-container active:scale-[0.98] transition font-label-md text-label-md py-2.5 px-3 rounded-xl flex items-center justify-center gap-1" type="button">
+<span class="material-symbols-outlined text-[18px]">delete_outline</span>
+            Discard
+          </button>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 2: Meeting Executive Briefing Document -->
+<section class="px-margin mt-space-md">
+<div class="bg-surface-container-lowest rounded-2xl shadow-sm p-space-lg">
+<div class="flex items-start justify-between mb-space-sm">
+<div class="flex items-center gap-space-sm">
+<div class="w-8 h-8 rounded-lg bg-primary-fixed flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">description</span>
+</div>
+<div>
+<h3 class="font-label-lg text-label-lg text-on-surface font-semibold leading-tight">Executive Briefing (1-Pager)</h3>
+<span class="font-caption text-caption text-on-surface-variant">Generated &amp; Stored in OneDrive APAC / Meetings</span>
+</div>
+</div>
+<span class="bg-surface-container text-on-surface-variant px-2 py-0.5 rounded-full font-caption text-caption">v1.2 Signed</span>
+</div>
+<!-- Insights Stack -->
+<div class="space-y-space-sm mt-space-sm">
+<div class="bg-surface-container-low p-space-sm rounded-xl flex gap-space-sm items-start">
+<span class="material-symbols-outlined text-secondary text-[20px] shrink-0 mt-0.5">priority_high</span>
+<div class="min-w-0">
+<h4 class="font-label-md text-label-md text-on-surface font-bold">3 Unresolved Items (From 14 Emails)</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+              Q4 SLA tier upgrade request, milestone contract renewal date, and multi-touch regional attribution consensus.
+            </p>
+</div>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded-xl flex gap-space-sm items-start">
+<span class="material-symbols-outlined text-tertiary-container text-[20px] shrink-0 mt-0.5">trending_up</span>
+<div class="min-w-0">
+<h4 class="font-label-md text-label-md text-on-surface font-bold">Performance Milestone</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+              Summer sprint delivered <span class="text-on-surface font-semibold">$1.42M</span> validated pipeline velocity across tier-1 APAC accounts.
+            </p>
+</div>
+</div>
+</div>
+<!-- Preview Button -->
+<button class="w-full mt-space-md py-2.5 px-space-md rounded-xl bg-surface-container text-primary font-label-md text-label-md flex items-center justify-center gap-1.5 hover:bg-surface-container-high transition" type="button">
+<span>Preview Full Briefing Doc</span>
+<span class="material-symbols-outlined text-[16px]">open_in_new</span>
+</button>
+</div>
+</section>
+<!-- Multi-Agent Governance & Explainability Drawer -->
+<section class="px-margin mt-space-md">
+<div class="bg-surface-container-low rounded-2xl p-space-lg">
+<div class="flex items-center justify-between mb-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[18px] text-primary">account_tree</span>
+<span class="font-label-lg text-label-lg text-on-surface font-bold">Multi-Agent Attribution</span>
+</div>
+<span class="bg-tertiary-fixed text-on-tertiary-fixed px-2 py-0.5 rounded-full font-caption text-caption font-semibold">DLP Compliant</span>
+</div>
+<div class="space-y-space-sm mt-space-xs">
+<!-- Agent Item 1 -->
+<div class="flex items-center justify-between text-body-sm font-body-sm">
+<div class="flex items-center gap-space-xs min-w-0">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+<span class="text-on-surface font-medium truncate">Research Agent</span>
+</div>
+<span class="text-on-surface-variant font-label-sm text-label-sm">14 Outlook threads, 2 Teams calls</span>
+</div>
+<!-- Agent Item 2 -->
+<div class="flex items-center justify-between text-body-sm font-body-sm">
+<div class="flex items-center gap-space-xs min-w-0">
+<span class="w-2 h-2 rounded-full bg-primary"></span>
+<span class="text-on-surface font-medium truncate">Data Synthesis Agent</span>
+</div>
+<span class="text-on-surface-variant font-label-sm text-label-sm">PowerBI APAC Workspace query</span>
+</div>
+<!-- Policy Guard -->
+<div class="flex items-center justify-between text-body-sm font-body-sm">
+<div class="flex items-center gap-space-xs min-w-0">
+<span class="w-2 h-2 rounded-full bg-tertiary"></span>
+<span class="text-on-surface font-medium truncate">Microsoft Purview Sentinel</span>
+</div>
+<span class="text-on-surface-variant font-label-sm text-label-sm">Zero PII / Tenant Leakage</span>
+</div>
+</div>
+<div class="mt-space-md pt-space-xs flex justify-between items-center">
+<button class="text-primary font-label-sm text-label-sm font-semibold flex items-center gap-1 hover:underline" type="button">
+<span class="material-symbols-outlined text-[16px]">history_edu</span>
+          View Complete Deterministic Agent Step Trace
+        </button>
+</div>
+</div>
+</section>
+<!-- Bottom Floating Interactive Approval Dock -->
+<div class="fixed bottom-0 inset-x-0 bg-surface/90 backdrop-blur-xl p-margin shadow-2xl z-40 max-w-screen-md mx-auto">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-sm">
+<button class="flex-1 bg-primary-container text-on-primary font-label-lg text-label-lg py-3.5 px-space-lg rounded-xl shadow-md active:scale-[0.98] transition flex items-center justify-center gap-2" id="approve-btn" type="button">
+<span class="material-symbols-outlined text-[20px]">task_alt</span>
+<span>Approve &amp; Complete Run</span>
+</button>
+<button class="bg-surface-container-high text-on-surface font-label-lg text-label-lg py-3.5 px-space-lg rounded-xl hover:bg-surface-variant active:scale-[0.98] transition flex items-center justify-center gap-1.5" id="revise-btn" type="button">
+<span class="material-symbols-outlined text-[18px]">tune</span>
+<span>Revise</span>
+</button>
+</div>
+<p class="font-caption text-caption text-center text-on-surface-variant mt-1">
+        Dispatches staged email and locks briefing summary in Contoso client repository.
+      </p>
+</div>
+</div>
+</div>
+<script>
+  // Simple micro-interaction for confirmation toast
+  document.getElementById('approve-btn')?.addEventListener('click', () => {
+    const btn = document.getElementById('approve-btn');
+    btn.innerHTML = '<span class="material-symbols-outlined animate-spin text-[20px]">sync</span><span>Dispatching Package...</span>';
+    setTimeout(() => {
+      btn.innerHTML = '<span class="material-symbols-outlined text-[20px]">check_circle</span><span>Package Dispatched</span>';
+      btn.classList.remove('bg-primary-container');
+      btn.classList.add('bg-tertiary-container');
+    }, 900);
+  });
+</script></main></body></html>
