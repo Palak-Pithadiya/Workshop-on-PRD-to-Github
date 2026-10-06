@@ -1,4 +1,4 @@
-# Sunday Workshop
+# An Agentic Copilot Experience
 
 <div align="center">
 
